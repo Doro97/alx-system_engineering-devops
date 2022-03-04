@@ -1,5 +1,29 @@
 # Shell permissions
+Linux systems are both multitasking and multiuser meaning more than one user can be operating the computer at the same time.
 
+## File permissions
+On a Linux system, each file and directory is assigned access rights for the owner of the file, the members of a group of related users, and everybody else
+
+## Permission settings
+* rwx rwx rwx = 111 111 111
+* rw- rw- rw- = 110 110 110
+* rwx --- --- = 111 000 000
+
+*and so on...*
+
+* rwx = 111 in binary = 7
+* rw- = 110 in binary = 6
+* r-x = 101 in binary = 5
+* r-- = 100 in binary = 4
+
+## Common commands
+Some of the common commands used include:
+
+1. chmod - modify file access rights
+2. su - temporarily become the superuser
+3. sudo - temporarily become the superuser
+4. chown - change file ownership
+5. chgrp - change a file's group ownership
 
 ## Files in this folder
 
