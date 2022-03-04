@@ -37,7 +37,7 @@ Some of the common commands used include:
 |[5-execute](5-execute)|a script that adds execute permission to the owner of the file hello | 
 |[6-multiple_permissions](6-multiple_permissions)|a script that dds execute permission to the owner and the group owner, and read permission to other users, to the file hello | 
 |[7-everybody](7-everybody)|a script that adds execution permission to the owner, the group owner and the other users, to the file hello| 
-|[8-James_Bond](8-James_Bond)|a script that ets the permission to the file hello as follows:    Owner: no permission at all Group: no permission at all  Other users: all the permissions | 
+|[8-James_Bond](8-James_Bond)|a script that ets the permission to the file hello as follows:    Owner: no permission at all.     Group: no permission at all.    Other users: all the permissions | 
 |[9-John_Doe](9-John_Doe)|a script that sets the mode of the file hello to -rwxr-x-wx :| 
 |[10-mirror_permissions](10-mirror_permissions)|a script that sets the mode of the file hello the same as olleh’s mode(-rw-rw-r--)| 
 |[11-directories_permissions](11-directories_permissions)|a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed| 
